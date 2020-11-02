@@ -1,0 +1,9 @@
+Script started on Sun 27 Sep 2020 02:44:15 PM EDT
+]0;mthien@sol28:~/lab5[?1034h[mthien@sol28 lab5]$ ceh[K[K[Kecho "number of reviews that gave 5 stars"[K[Ks is: "
+number of reviews that gave 5 stars is: 
+]0;mthien@sol28:~/lab5[mthien@sol28 lab5]$ awk -F ',' '$6==4 {++count} END {print count}' ramen-rating s.csv
+391
+]0;mthien@sol28:~/lab5[mthien@sol28 lab5]$ exit
+exit
+
+Script done on Sun 27 Sep 2020 02:45:05 PM EDT

@@ -1,0 +1,21 @@
+Script started on Sun 27 Sep 2020 04:43:58 PM EDT
+]0;mthien@sol28:~/lab5[?1034h[mthien@sol28 lab5]$ cd[K[Kls
+[0m[38;5;13manimation.gif[0m  [38;5;27mimages[0m        ramen-ratings.csv  task2.log
+[38;5;34mgif.sh[0m         [38;5;34mmy-script.sh[0m  task1.log
+]0;mthien@sol28:~/lab5[mthien@sol28 lab5]$ convert delay-100 [K[K[K[K[K[K[K[K[K[K-delay 100 -oo[K[Kloop 0 ./[K[K./images/[K/.png [K[K[K[K[K*.png .gif[K[K[K[Kanimation.gif
+]0;mthien@sol28:~/lab5[mthien@sol28 lab5]$ ls[K[Kls
+[0m[38;5;13manimation.gif[0m  [38;5;27mimages[0m        ramen-ratings.csv  task2.log
+[38;5;34mgif.sh[0m         [38;5;34mmy-script.sh[0m  task1.log
+]0;mthien@sol28:~/lab5[mthien@sol28 lab5]$ vim[K[K[Kvim [K[K[K[Kvim gif.sh
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"gif.sh" 7L, 288C[>c[27m[m[H[2J[1;1H[96m#Matthew Thien ImageMagick Script
+#Converts the three png images to a gif 
+# -delay 100 means 1 second delay between images
+# -loop 0 means loop infinitely 
+# Uses all .png files in images folder 
+# animation.gif is the output file[m
+convert [38;5;224m-delay[m [95m100[m [38;5;224m-loop[m [95m0[m ./images/*.png animation.gif
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H6,1[11CAll"gif.sh" 7L, 288C[45C   [11C   [6;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"gif.sh" 7L, 288C written
+[?1l>[?12l[?25h[?1049l]0;mthien@sol28:~/lab5[mthien@sol28 lab5]$ s[Kexit
+exit
+
+Script done on Sun 27 Sep 2020 04:45:08 PM EDT
