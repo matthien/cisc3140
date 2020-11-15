@@ -22,7 +22,7 @@ SELECT winner FROM nobel WHERE yr = 1960 AND subject = 'Literature'
 
 SELECT name FROM world WHERE population > (SELECT population FROM world WHERE name='Romania')
 
-/* This line basically adds up all of the population. The keyword SUM means to add.
+/* This line basically adds up all of the population. The keyword SUM means to add. */
 
 SELECT SUM(population) FROM world
 
